@@ -1,4 +1,3 @@
-# jayantone
 # Jayant Kumar
 
 ## 🌟 Data Scientist | Quant Algo Trader 🌟
