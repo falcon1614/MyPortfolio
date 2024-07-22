@@ -184,11 +184,11 @@ footer a.online i {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .works .left h3 i {
-    font-size: 8px;
+    font-size: 25px;
 }
 
 .works .left .works-list {
@@ -279,6 +279,7 @@ footer a.online i {
     font-size: 15px;
 }
 
+/* Container for the projects section */
 .projects {
     padding: 20px;
     background: #18181b;
@@ -287,6 +288,7 @@ footer a.online i {
     margin-top: 20px;
 }
 
+/* Header styling */
 .projects h3 {
     color: #bdbdbd;
     font-weight: 500;
@@ -296,6 +298,7 @@ footer a.online i {
     font-size: 24px;
 }
 
+/* Projects list container */
 .projects-list {
     display: flex;
     flex-wrap: wrap;
@@ -303,6 +306,7 @@ footer a.online i {
     margin-top: 20px;
 }
 
+/* Individual project item styling */
 .project-item {
     background: #1c1c1e;
     padding: 20px;
@@ -312,22 +316,21 @@ footer a.online i {
     transition: all 0.3s ease;
 }
 
-.project-item:hover {
-    background: #2e7d32;
-}
-
+/* Project title styling */
 .project-item h4 {
     font-size: 20px;
     color: #fff;
     font-weight: 500;
 }
 
+/* Project description styling */
 .project-item p {
     font-size: 16px;
     color: #bdbdbd;
     margin-top: 10px;
 }
 
+/* Project link styling */
 .project-item a.project-link {
     text-decoration: none;
     color: #388e3c;
