@@ -1,8 +1,6 @@
 # jayantone
 # Jayant Kumar
 
-![Profile Image](assets/profile.png)
-
 ## 🌟 Data Scientist | Quant Algo Trader 🌟
 
 > "Turning data into actionable insights and developing cutting-edge trading strategies."
