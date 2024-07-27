@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Hire button click event
     hireButton.addEventListener("click", () => {
-        alert("Thank you for your interest! Please send your job request to jayantkumar1614@gmail.com.");
+        alert("Thank you for your interest! Please send your job request linkedin to .");
     });
 
     // Function to highlight active nav link
