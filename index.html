@@ -1,145 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="shorcut icon" type="x-icon" href="assets/profile.png">
-    <title>Personal Portfolio | Jayant Kumar</title>
-    <meta name="description" content="Jayant Kumar's personal portfolio showcasing skills in data science, quantitative analysis, and algorithmic trading.">
-    <meta name="keywords" content="Data Scientist, Quant Algo Trader, Jayant Kumar, Portfolio, Financial Models, Predictive Analytics">
+    <title>Portfolio</title>
+    <meta name="description" content="Jayant Kumar's personal portfolio showcasing skills in Web Devloper, BlockChain devloper">
+    <meta name="keywords" content="Web Devloper, BlockChain Devloper">
 </head>
-
 <body>
 
-    <nav>
-        <div class="logo">
-            <i class="fa-solid fa-code"></i>
-        </div>
-        <div class="links">
-            <a href="#" class="active">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Project</a>
-            <a href="#">Contact Me</a>
-        </div>
-    </nav>
+    <!-- Heading Part -->
+    <header class="header">
 
-    <div class="about">
-        <div class="left">
-            <h3>Data Scientist | Quant Algo Trader</h3>
-            <div class="info">
-                <h2>I'm Jayant Kumar</h2>
-                <p>I engineer intelligent and predictive financial models</p>
-                <div class="buttons">
-                    <button class="hire">
-                        Hire Me <i class="fa-solid fa-plus"></i>
-                    </button>
-                    <button class="email" onclick="copyEmail()">
-                        Copy Email <i class="fa-solid fa-copy"></i>
-                    </button>
-                </div>
+        <a href="#" class="logo">Protfolio</a>
+
+        <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#skills"> Skills</a>
+                <a href="#coding"> Coding</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- Home Part -->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello</h3>
+            <h1>Im Jayant Kumar</h1>
+            <h3>And I 'm a <span>Web & BlockChain Developer</span></h3>
+            <p>I specialize in creating innovative web solutions and decentralized blockchain applications, combining cutting-edge technology with creative problem-solving to deliver exceptional results.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/jayant-kumar-6a0280251/">in</i></a>
+                <a href="https://github.com/forenus">Git</a>
             </div>
-        </div>
-        <div class="right">
-            <a href="#" class="online"><i class="fa-solid fa-circle"></i> Available For Job</a>
-            <img src="assets/profile.png" alt="Profile Picture">
-        </div>
-    </div>
 
-    <div class="works">
-        <div class="left">
-            <h3><i class="fa-solid fa-circle"></i> Skills </h3>
-            <div class="works-list">
-                <div class="item">
-                    <div class="work-info">
-                        <h5 class="active">Programming Languages</h5>
+            <a href="./assets/cv.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./assets/profile-pic1png.png" alt="">
+        </div>
+     </section>
+
+    <!-- About Part -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="./assets/profile-picabout (1).png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Devloper & BlockChain Devloper</h3>
+            <p>I am a passionate Web Developer and Blockchain Developer dedicated to creating innovative and efficient digital solutions. With expertise in building responsive web applications and decentralized platforms, I aim to merge functionality with aesthetics to deliver exceptional user experiences. My journey includes mastering modern web technologies, frameworks, and blockchain ecosystems like Ethereum and smart contracts. I thrive on solving complex problems and continuously exploring emerging technologies to stay at the forefront of the digital revolution.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+     </section>
+
+    <!-- Service -->
+     <section class="service" id="service">
+        <h2 class="heading">My <span>Service</span></h2>
+
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fas fa-code"></i>
+                <h3>Full Stack Web Developer</h3>
+                <p>Expert in building dynamic, responsive, and user-friendly websites using modern technologies like HTML, CSS, JavaScript, and frameworks like React and Node.js.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="service-box">
+                <i class="fas fa-code"></i>
+                <h3>Blockchain Developer</h3>
+                <p>Specialized in developing secure, decentralized blockchain applications, smart contracts, and DApps using Ethereum, Solidity, and Web3.js.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="service-box">
+                <i class="fas fa-chart-line"></i>
+                <h3>SEO Optimization</h3>
+                <p>Optimize websites to rank higher in search engine results, drive organic traffic, and improve user engagement using advanced SEO strategies.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="service-box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Web Design</h3>
+                <p>Design visually appealing, intuitive, and user-centered interfaces that enhance user experience and brand identity.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="service-box">
+                <i class="fas fa-cogs"></i>
+                <h3>DevOps Expert</h3>
+                <p>Streamline development workflows, automate deployments, and enhance system reliability using tools like Docker, Kubernetes, and CI/CD pipelines.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Skills Part -->
+     <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <h3>HTML</h3>
+                <i class="fab fa-html5"></i>
+                <p>Proficient in HTML5, with a strong understanding of semantic markup and accessibility best practices.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="html"></span>
                     </div>
-                    <p>Python | C++ | SQL</p>
                 </div>
-                <div class="item">
-                    <div class="work-info">
-                        <h5 class="active">Machine Learning & Statistical Analysis</h5>
-                    </div>
+            </div>
 
-                </div>
-                <div class="item">
-                    <div class="work-info">
-                        <h5 class="active">Data Visualization & Communication</h5>
-                    </div>
-                    <p>Matplotlib, Seaborn</p>
-                </div>
-                <div class="item">
-                    <div class="work-info">
-                        <h5 class="active">Quantitative & Financial Modeling</h5>
+            <div class="skills-box">
+                <h3>CSS</h3>
+                <i class="fab fa-css3-alt"></i>
+                <p>Proficient in CSS3, with a strong understanding of modern design principles and responsive web design.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="css"></span>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="work-info">
-                        <h5 class="active">Algorithm Development & Optimization</h5>
+            </div>
+
+            <div class="skills-box">
+                <h3>JavaScript</h3>
+                <i class="fab fa-js"></i>
+                <p>Proficient in JavaScript, with a strong understanding of modern web development concepts and best practices.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box" >
+                <h3>TypeScript</h3>
+                <i class="fab fa-typescript"></i>
+                <p>Proficient in TypeScript, with a strong understanding of modern web development concepts and best practices.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="typescript"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>React</h3>
+                <i class="fab fa-react"></i>
+                <p>Proficient in React, with a strong understanding of state management and component-based architecture.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="react"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Node.js</h3>
+                <i class="fab fa-node-js"></i>
+                <p>Proficient in Node.js, with a strong understanding of server-side development and APIs.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="node"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Docker</h3>
+                <i class="fab fa-docker"></i>
+                <p>Proficient in Docker, with a strong understanding of containerization and orchestration.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="docker"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Kubernetes</h3>
+                <i class="fab fa-kubernetes"></i>
+                <p>Proficient in Kubernetes, with a strong understanding of containerization and orchestration.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="kubernetes"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Git</h3>
+                <i class="fab fa-git"></i>
+                <p>Proficient in Git, with a strong understanding of version control and collaboration.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="git"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>GitHub</h3>
+                <i class="fab fa-github"></i>
+                <p>Proficient in GitHub, with a strong understanding of version control and collaboration.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="github"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Python</h3>
+                <i class="fab fa-python"></i>
+                <p>Proficient in Python, with a strong understanding of data analysis and machine learning.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="python"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Blockchain</h3>
+                <i class="fab fa-ethereum"></i>
+                <p>Proficient in Ethereum, with a strong understanding of smart contracts and decentralized applications.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="blockchain"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h3>Solidity</h3>
+                <i class="fab fa-solidity"></i>
+                <p>Proficient in Solidity, with a strong understanding of smart contracts and decentralized applications.</p>
+                <div class="bar-container">
+                    <p>Proficiency</p>
+                    <div class="progress">
+                        <span class="solidity"></span>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="right">
-            <div class="item">
-                <a href="#">About My Work</a>
-                <p>As a Data Scientist and Quantitative/Algorithmic Trader, I specialize in extracting actionable insights from complex datasets to drive strategic decision-making and optimize trading strategies. My expertise spans various aspects of data science, including data mining, statistical analysis, machine learning, and predictive modeling.</p>
-            </div>
-            <div class="item">
-                <a href="#">Data Analytics</a>
-                <p>Leveraging data to drive strategic decision-making and optimize performance.</p>
-            </div>
-            <div class="item">
-                <a href="#">Quantitative Research</a>
-                <p>Applying mathematical and statistical models to financial data for trading insights.</p>
-            </div>
-            <div class="item">
-                <a href="#">Algorithmic Trading</a>
-                <p>Developing and implementing trading algorithms to capitalize on market opportunities.</p>
-            </div>
-            <div class="item">
-                <a href="#">Predictive Modeling</a>
-                <p>Utilizing machine learning techniques to forecast market trends and behavior.</p>
-            </div>            
-        </div>
-    </div>
-
-    <div class="projects">
-        <h3><i class="fa-solid fa-circle"></i> Projects</h3>
-        <div class="projects-list">
-            <div class="project-item">
-                <h4>Stock Price Prediction</h4>
-                <p>Developed a machine learning model to predict stock prices using historical data and technical indicators.</p>
-                <a href="https://github.com/forenus/Stock-Price-Prediction" class="project-link">View Project</a>
-            </div>
-            <div class="project-item">
-                <h4>Algorithmic Trading Bot</h4>
-                <p>Created an algorithmic trading bot that executes trades based on predefined strategies and market conditions.</p>
-                <a href="https://github.com/forenus/Algorithmic-Trading-Bot" class="project-link">View Project</a>
-            </div>
-            <div class="project-item">
-                <h4>Cryptocurrency Analysis</h4>
-                <p>Conducted comprehensive analysis on cryptocurrency market trends and developed trading strategies.</p>
-                <a href="https://github.com/forenus/Cryptocurrency-Analysis" class="project-link">View Project</a>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <a href="#">My Portfolio</a>
-        <div class="socials">
-            <a href="#">Github</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-        </div>
-        <a href="#" class="online"><i class="fa-solid fa-circle"></i> Available For Job</a>
-    </footer>
+    <!-- Coding Section -->
+    <section class="coding" id="coding">
+        <h2 class="heading">My <span>Coding</span></h2>
     
-    <!-- Include at the end of the body -->
-    <script src="script.js"></script>
-</body>
+        <div class="coding-container">
+            <!-- LeetCode Profile -->
+            <div class="coding-box">
+                <img src="./assets/leetcode.png" alt="LeetCode Profile">
+                <div class="coding-layer">
+                    <h4><a href="https://leetcode.com/u/jayantkumar62061/">LeetCode</a></h4>
+                </div>
+            </div>
+    
+            <!-- HackerRank Profile -->
+            <div class="coding-box">
+                <img src="./assets/hackerrank.jpeg" alt="HackerRank Profile">
+                <div class="coding-layer">
+                    <h4><a href="https://www.hackerrank.com/profile/jayantkumar62061">HackerRank</a></h4>
+                </div>
+            </div>
+    
+            <!-- CodeChef Profile -->
+            <div class="coding-box">
+                <img src="./assets/codeshef.png" alt="CodeChef Profile">
+                <div class="coding-layer">
+                    <h4><a href="https://www.codechef.com/users/jayantkumar123/">CodeChef</a></h4>
+                </div>
+            </div>
+    
+            <!-- CodeForces Profile -->
+            <div class="coding-box">
+                <img src="./assets/codeforces.jpeg" alt="CodeForces Profile">
+                <div class="coding-layer">
+                    <h4><a href="https://codeforces.com/profile/FORENUS">CodeForces</a></h4>
+                </div>
+            </div>
+    
+            <!-- GeeksForGeeks Profile -->
+            <div class="coding-box">
+                <img src="./assets/gfg.png" alt="GeeksForGeeks Profile">
+                <div class="coding-layer">
+                    <h4><a href="https://auth.geeksforgeeks.org/user/jayantkumar/">GeeksForGeeks</a></h4>
+                </div>
+            </div>
+        </div>
+    </section>
 
+
+    <!-- project -->
+     <section class="project" id="project">
+        <h2 class="heading">My <span>Project</span></h2>
+
+        <!-- project 1 -->
+        <div class="project-container">
+
+            <!-- project 1 -->
+            <div class="project-box">
+                <img src="./assets/ticket.jpeg" alt="">
+                <div class="project-layer">
+                    <h4>Project 1</h4>
+                    <p>Project Description</p>
+                    <a href="https://bookmyshowjayant.netlify.app/"><i class="fas fa-external-link-alt"></i>link</a>
+                </div>
+            </div>
+
+            <!-- project 2 -->
+            <div class="project-box">
+                <img src="./assets/ticket.jpeg" alt="">
+                <div class="project-layer">
+                    <h4>Project 2</h4>
+                    <p>Project Description</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i>link</a>
+                </div>
+            </div>
+
+            <!-- project 3 -->
+            <div class="project-box">
+                <img src="./assets/ticket.jpeg" alt="">
+                <div class="project-layer">
+                    <h4>Project 3</h4>
+                    <p>Project Description</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i>link</a>
+                </div>
+            </div>
+
+            <!-- project 4 -->
+            <div class="project-box">
+                <img src="./assets/ticket.jpeg" alt="">
+                <div class="project-layer">
+                    <h4>Project 4</h4>
+                    <p>Project Description</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i>link</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Part -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Your Mobile">
+                <input type="text" placeholder="Your Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
+
+    <!-- Footer -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 Jayant Kumar. All rights reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i>UP</a>
+        </div>
+     </footer>
+</body>
 </html>
