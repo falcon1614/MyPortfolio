@@ -61,7 +61,7 @@ const Navbar = () => {
               <Code2 size={24} className="text-white" />
             </Motion.div>
             <span className="font-bold text-xl bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 bg-clip-text text-transparent">
-              Time To Program
+              CodeCraft
             </span>
           </Motion.button>
 
