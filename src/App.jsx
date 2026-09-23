@@ -1,19 +1,25 @@
-import React from "react";
-import { ThemeProvider } from "./context/ThemeContext";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/Sections/HeroSection"
-import SkillsSection from "./components/Sections/SkillsSection";
+import Navbar from './components/Navbar'
+import HeroSection from './components/Sections/HeroSection'
+import SkillsSection from './components/Sections/SkillsSection'
+import CodingSection from './components/Sections/CodingSection'
+import ProjectsSection from './components/Sections/ProjectsSection'
+import ExperienceSection from './components/Sections/ExperienceSection'
+import AchievementsSection from './components/Sections/AchievementsSection'
+import { profile } from './utils/data'
 
-const App = () => {
+export default function App() {
   return (
-    <ThemeProvider>
-      <div>
-        <Navbar />
+    <>
+      <Navbar />
+      <main>
         <HeroSection />
-        <SkillsSection/>
-      </div>
-    </ThemeProvider>
-  );
-};
-
-export default App;
+        <SkillsSection />
+        <CodingSection />
+        <ProjectsSection />
+        <ExperienceSection />
+        <AchievementsSection />
+      </main>
+      <footer className="footer">© {new Date().getFullYear()} {profile.name}. Built with React and Vite.</footer>
+    </>
+  )
+}

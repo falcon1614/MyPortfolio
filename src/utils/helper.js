@@ -1,22 +1,15 @@
-export const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2,
-      delayChildren: 0.3,
-    },
-  },
-};
+import { useEffect, useState } from 'react'
 
-export const itemVariants = {
-  hidden: { y: 30, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.8,
-      ease: "easeOut",
-    },
-  },
-};
+// Highlights the nav link of the section currently in view
+export function useActiveSection(ids) {
+  const [active, setActive] = useState(ids[0])
+  useEffect(() => {
+    const obs = new IntersectionObserver(
+      (entries) => entries.forEach((e) => e.isIntersecting && setActive(e.target.id)),
+      { rootMargin: '-45% 0px -50% 0px' }
+    )
+    ids.forEach((id) => { const el = document.getElementById(id); if (el) obs.observe(el) })
+    return () => obs.disconnect()
+  }, [ids])
+  return active
+}
