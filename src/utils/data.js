@@ -4,21 +4,21 @@ export const profile = {
   role: 'Software Engineer',
   headline: 'I build fast backends and low-latency systems.',
   about: [
-    'Computer Science graduate from SLIET, Punjab, based in Ghaziabad. I work across backend services, data pipelines and C++ systems, from REST APIs and microservices to trading engines where microseconds matter.',
+    'Computer Science graduate from SLIET, Punjab. I work across backend services, data pipelines and C++ systems, from REST APIs and microservices to trading engines where microseconds matter.',
     'I like problems with hard constraints: sandboxed code execution, lock-free queues, market-data ingestion. Outside projects, I solve algorithmic problems and reached a Global Rank of 3781 in TCS CodeVita Season 13.',
   ],
   photo: '/jayant.png',
-  email: 'jayantkumar1614@gmail.com',
-  location: 'Ghaziabad, India',
-  resume: '#', // put your resume PDF in /public and use '/resume.pdf'
+  email: 'jayantkumar62061@gmail.com',
+  location: 'Noida, India',
+  resume: 'https://drive.google.com/file/d/1mlKkiH2VlF0BAd7JOtV4k9ojnnr5tjRs/view', // put your resume PDF in /public and use '/resume.pdf'
   stats: [['500+', 'problems solved'], ['3781', 'CodeVita S13 rank'], ['S', 'NIELIT top grade']],
 }
 
 export const socials = [
   { name: 'GitHub', icon: 'github', url: 'https://github.com/falcon1614' },
   { name: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com/in/jayantdeveloper' },
-  { name: 'YouTube', icon: 'youtube', url: '#' }, // TODO: add channel URL
-  { name: 'Twitter', icon: 'twitter', url: '#' }, // TODO: add profile URL
+  { name: 'YouTube', icon: 'youtube', url: 'https://www.youtube.com/@jayant-r7e' },
+  { name: 'Twitter', icon: 'twitter', url: 'https://x.com/JayantKumaavzu' },
 ]
 
 export const skills = [
@@ -38,41 +38,73 @@ export const coding = {
   note: 'Across Codeforces, LeetCode, CSES, CodeChef, GeeksforGeeks and Project Euler',
   // solved: fill in your real numbers per platform
   platforms: [
-    { name: 'Codeforces', handle: 'falcon1614', url: 'https://codeforces.com/profile/falcon1614', solved: '' },
+    { name: 'Codeforces', handle: 'falcon1614', url: 'https://codeforces.com/profile/falcon1614', solved: '120' },
     { name: 'LeetCode', handle: 'falcon1614', url: 'https://leetcode.com/u/falcon1614', solved: '' },
     { name: 'GeeksforGeeks', handle: 'falcon1614', url: 'https://www.geeksforgeeks.org/user/falcon1614', solved: '' },
-    { name: 'CodeChef', handle: 'falcon1614', url: 'https://www.codechef.com/users/falcon1614', solved: '' },
+    { name: 'CodeChef', handle: 'falcon1614', url: 'https://www.codechef.com/users/jayantkumar123', solved: '' },
     { name: 'CSES', handle: 'falcon1614', url: 'https://cses.fi/', solved: '' },
     { name: 'Kaggle', handle: 'falcon1614', url: 'https://www.kaggle.com/falcon1614', solved: '' },
   ],
 }
 
-// Update the github/live URLs to your real repositories
+// ************************************** Update the github/live URLs to your real repositories
+//
 export const projects = [
-  { title: 'AI Career Copilot', tags: ['FastAPI', 'Node.js', 'PostgreSQL', 'pgvector', 'Redis', 'Docker'],
+  {
+    title: 'AI Career Copilot',
+    tags: ['FastAPI', 'Node.js', 'PostgreSQL', 'pgvector', 'Redis', 'Docker'],
     desc: 'Microservice platform for resume parsing, ATS scoring and Gemini-powered feedback, with a sandboxed multi-language code judge.',
     more: ['Semantic search over resume and job embeddings with pgvector', 'Redis caching cut average response time by 40%', 'Docker Compose cut setup time by 70%'],
-    github: 'https://github.com/falcon1614', live: 'https://falcon1614.vercel.app' },
-  { title: 'Algorithmic Trading Engine', tags: ['C++', 'pybind11', 'Alpaca API'],
+    github: 'https://github.com/falcon1614/AI-Career-Copilot',
+    live: 'https://falcon1614.vercel.app'
+  },
+
+  {
+    title: 'Algorithmic Trading Engine',
+    tags: ['C++', 'pybind11', 'Alpaca API'],
     desc: 'C++ trading engine exposed to Python through pybind11, connected to the Alpaca API.',
     more: ['Performance-critical paths in C++', 'Python bindings for strategy research'],
-    github: 'https://github.com/falcon1614', live: '' },
-  { title: 'NetForge', tags: ['C++', 'TCP/IP', 'UDP', 'CMake'],
+    github: 'https://github.com/falcon1614',
+    live: ''
+  },
+
+  {
+    title: 'NetForge',
+    tags: ['C++', 'TCP/IP', 'UDP', 'CMake'],
     desc: 'Low-latency networking engine built on Linux POSIX sockets.',
     more: ['TCP client/server and UDP sender/receiver', 'Modular design with a benchmarking component for latency measurement'],
-    github: 'https://github.com/falcon1614', live: '' },
-  { title: 'Crop Recommendation System', tags: ['Python', 'Scikit-Learn', 'FastAPI'],
+    github: 'https://github.com/falcon1614/NetForge',
+    live: ''
+  },
+
+  {
+    title: 'Crop Recommendation System',
+    tags: ['Python', 'Scikit-Learn', 'FastAPI'],
     desc: 'ML system recommending crops from soil and climate data. Built as a B.E. major project.',
     more: ['Compared 10 classifiers; Random Forest reached 96% accuracy', 'FastAPI inference endpoint responding in under 200ms'],
-    github: 'https://github.com/falcon1614', live: '' },
-  { title: 'DSA Visualizer', tags: ['React', 'D3.js', 'Web Workers'],
+    github: 'https://github.com/falcon1614/Crop-Recomendation',
+    live: ''
+  },
+
+  {
+    title: 'DSA Visualizer',
+    tags: ['React', 'D3.js', 'Web Workers'],
     desc: 'Interactive tool that animates sorting and graph algorithms step by step.',
     more: ['Web Workers moved computation off the main thread', 'Rendering performance improved by 40%'],
-    github: 'https://github.com/falcon1614', live: 'https://falcon1614.vercel.app' },
-  { title: 'Fundmetis', tags: ['React', 'Python', 'Finance'],
+    github: 'https://github.com/falcon1614/DSA-Visualizer',
+    live: 'https://dsa-visualizer-one.vercel.app/'
+  },
+
+  {
+    title: 'Fundmetis',
+    tags: ['React', 'Python', 'Finance'],
     desc: 'Financial analysis platform with a Bloomberg / Capital IQ style stock screener.',
     more: ['Screening and analysis of listed companies'],
-    github: 'https://github.com/falcon1614', live: '' },
+    github: 'https://github.com/falcon1614',
+    live: ''
+  },
+
+  
 ]
 
 export const experience = [
