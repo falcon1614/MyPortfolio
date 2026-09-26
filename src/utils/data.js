@@ -10,7 +10,7 @@ export const profile = {
   photo: '/jayant.png',
   email: 'jayantkumar62061@gmail.com',
   location: 'Noida, India',
-  resume: 'https://drive.google.com/file/d/1mlKkiH2VlF0BAd7JOtV4k9ojnnr5tjRs/view', // put your resume PDF in /public and use '/resume.pdf'
+  resume: 'https://drive.google.com/file/d/1mlKkiH2VlF0BAd7JOtV4k9ojnnr5tjRs/view', 
   stats: [['500+', 'problems solved'], ['3781', 'CodeVita S13 rank'], ['S', 'NIELIT top grade']],
 }
 
@@ -104,7 +104,7 @@ export const projects = [
     live: ''
   },
 
-  
+
 ]
 
 export const experience = [

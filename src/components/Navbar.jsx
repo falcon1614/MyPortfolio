@@ -10,7 +10,7 @@ export default function Navbar() {
   const active = useActiveSection(ids)
   return (
     <header className="nav">
-      <a href="#home" className="brand">jayant<span>.dev</span></a>
+      <a href="#home" className="brand">jayant<span>.site</span></a>
       <nav aria-label="Sections">
         {links.map(([id, label]) => (
           <a key={id} href={`#${id}`} className={active === id ? 'on' : ''}>{label}</a>
